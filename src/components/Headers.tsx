@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { SITE_DESCRIPTION, SITE_DOMAIN, SITE_TITLE, SITE_URL } from '~/consts';
+import { SITE_DESCRIPTION, SITE_DOMAIN, SITE_TITLE } from '~/consts';
 
 const Headers = () => {
   console.log();
@@ -18,21 +18,21 @@ const Headers = () => {
       <meta name="msapplication-TileColor" content="#da532c" />
       <meta name="theme-color" content="#ffffff" />
 
-      <link rel="canonical" href={SITE_URL} />
+      <link rel="canonical" href={'SITE_URL'} />
 
       <title>{SITE_TITLE}</title>
       <meta name="title" content={SITE_TITLE} />
       <meta name="description" content={SITE_DESCRIPTION} />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content={SITE_URL} />
+      <meta property="og:url" content={'SITE_URL'} />
       <meta property="og:title" content={SITE_TITLE} />
       <meta property="og:description" content={SITE_DESCRIPTION} />
       <meta property="og:image" content={'SITE_IMAGE'} />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content={SITE_DOMAIN} />
-      <meta property="twitter:url" content={SITE_URL} />
+      <meta property="twitter:url" content={'SITE_URL'} />
       <meta property="twitter:title" content={SITE_TITLE} />
       <meta property="twitter:description" content={SITE_DESCRIPTION} />
       <meta property="twitter:image" content={'SITE_IMAGE'} />
