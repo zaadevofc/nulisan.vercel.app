@@ -22,7 +22,7 @@ export default function Home() {
                   Mau <span className='text-glow-skys'>nulis</span>, tapi kok mager? yaudah <span className='text-glow-ambers'>nulis online</span> aja~
                 </h1>
               </div>
-              <h1 className='font-["comfortaa"] text-amber-200 text-glow-thin leading-8 font-bold tracking-wider text-[20px] max-w-lg'>
+              <h1 className='font-["comfortaa"] text-amber-200 text-glow-thin leading-8 font-bold tracking-wider text-[18px] md:text-[20px] max-w-lg'>
                 Pakai dengan bijak yaa, sstt jangan kasih tau siapa - siapa just for fun~
               </h1>
               <div className='flex flex-row gap-3 items-center'>

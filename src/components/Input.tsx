@@ -14,7 +14,7 @@ const Input = (ctx: Inputs) => {
     return (
         <>
             <div className={`flex flex-col gap-2 w-full`}>
-                <label htmlFor={ctx.id} className="text-sm ml-2 font-bold text-amber-500">{ctx.alt || 'Masukin sesuatu :'}</label>
+                <label htmlFor={ctx.id} className="text-xs md:text-sm ml-2 font-bold text-amber-500">{ctx.alt || 'Masukin sesuatu :'}</label>
                 <input onChange={ctx.onChange} value={ctx.value} placeholder={ctx.placeholder || 'Masukin sesuatu...'} className={`${ctx.className as any} default-input`} id={ctx.id} type={ctx.type} />
             </div>
         </>
